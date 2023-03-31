@@ -1,14 +1,17 @@
 import "./App.css";
+import { Login } from "./components/Login";
+import { Profile } from "./components/Profile";
 
 function App() {
   return (
     <div className="App">
-     hello world
+     <Profile/>
+     <Login/>
     </div>
   );
 }
 
 // Link: https://www.youtube.com/watch?v=k68j9xlbHHk
-// Time: 4:59
+// Time: 35:39
 
 export default App;
